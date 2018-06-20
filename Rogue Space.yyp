@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "a6512f48-d3ab-42de-9ea6-990ade69f233",
+            "Value": {
+                "id": "aeca0506-83fc-471a-af9a-4969a197bf3f",
+                "resourcePath": "sprites\\spr_space\\spr_space.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b3b691f9-dd76-45c7-94f6-8124c3e9989c",
             "Value": {
                 "id": "bb0afa3e-7302-4f82-bb89-1f7cbb5dbebd",
@@ -204,6 +212,14 @@
                 "id": "3d7ae8e2-4f39-4e13-bfa5-a13b778e4638",
                 "resourcePath": "views\\f06c6bb1-5737-436d-b4c0-dfe276c90726.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f08935ea-6d6a-4bda-967c-efd7ba43f0a0",
+            "Value": {
+                "id": "eb3e5cde-8212-4364-901d-81f1908d3d98",
+                "resourcePath": "extensions\\Greenlands_top_down_night\\Greenlands_top_down_night.yy",
+                "resourceType": "GMExtension"
             }
         },
         {

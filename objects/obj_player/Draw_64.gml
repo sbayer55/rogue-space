@@ -1,0 +1,1 @@
+draw_text(10, 10, string(phy_position_x) + ", " + string(phy_position_y))
