@@ -91,7 +91,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "200.0",
+            "value": "500.0",
             "varName": "thrust",
             "varType": 0
         },
@@ -105,8 +105,36 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "5000.0",
+            "value": "500.0",
             "varName": "rcs_thrust",
+            "varType": 0
+        },
+        {
+            "id": "c34d032e-ff56-4c87-af38-a39861471ade",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "15",
+            "varName": "max_speed",
+            "varType": 0
+        },
+        {
+            "id": "7d9f1249-8879-4e23-9cb6-63a22eaa53c0",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "100",
+            "varName": "max_angular_velocity",
             "varType": 0
         }
     ],
