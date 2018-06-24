@@ -91,7 +91,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0.01",
+            "value": "0.001",
             "varName": "thrust",
             "varType": 0
         },
