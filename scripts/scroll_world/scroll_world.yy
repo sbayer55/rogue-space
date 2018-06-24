@@ -1,8 +1,8 @@
 {
-    "id": "eddfb395-dc7c-46e1-baa6-ab18fffcc5bc",
+    "id": "fd6a47d5-f273-4702-b020-84ec0e695e1b",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "move_player",
+    "name": "scroll_world",
     "IsCompatibility": false,
     "IsDnD": false
 }

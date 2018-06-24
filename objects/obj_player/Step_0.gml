@@ -25,4 +25,5 @@ if keyboard_check_pressed(vk_f2) {
 	view_visible[1] = true
 }
 
-move_player(local_impulse_x, local_impulse_y, angular_impulse)
+move_obj(local_impulse_x, local_impulse_y, angular_impulse)
+scroll_world()

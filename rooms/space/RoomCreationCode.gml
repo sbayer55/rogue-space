@@ -1,1 +1,9 @@
 room_speed = 60
+global.num_chunks = 3
+global.chunk_heigh = room_height / global.num_chunks
+global.chunk_width = room_width / global.num_chunks
+global.scroll_top = global.chunk_heigh
+global.scroll_bottom = room_height - global.chunk_heigh
+global.scroll_left = global.chunk_width
+global.scroll_right = room_width - global.chunk_width
+global.despawn_distance = 5760

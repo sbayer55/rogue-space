@@ -43,6 +43,16 @@
             "enumb": 0,
             "eventtype": 2,
             "m_owner": "3e67f6e8-1bc7-44ac-9dfa-96114e2fba8f"
+        },
+        {
+            "id": "68d9ed52-8f5e-43ec-b667-c00b9e970ca5",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "5b19b80a-4ad3-4824-9a88-8ba97ec681b7",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "3e67f6e8-1bc7-44ac-9dfa-96114e2fba8f"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -61,32 +71,32 @@
     "physicsShape": 1,
     "physicsShapePoints": [
         {
-            "id": "936a2f9f-74de-40dc-badf-f530171406ec",
+            "id": "6f75e14c-c899-4ba0-8c02-7893a20002f3",
             "modelName": "GMPoint",
             "mvc": "1.0",
-            "x": 2,
-            "y": 5
+            "x": 0,
+            "y": 4
         },
         {
-            "id": "d98fdaf7-85cb-4747-8708-ec087e743aee",
+            "id": "82f83998-a1a0-42fe-9366-51acfed67960",
             "modelName": "GMPoint",
             "mvc": "1.0",
-            "x": 126,
-            "y": 5
+            "x": 64,
+            "y": 4
         },
         {
-            "id": "95e08fec-7799-4656-ab95-a2da88ce63e8",
+            "id": "91c6a4d1-6506-4e9c-a67d-7afffb50afae",
             "modelName": "GMPoint",
             "mvc": "1.0",
-            "x": 126,
-            "y": 126
+            "x": 64,
+            "y": 63
         },
         {
-            "id": "b92682fb-e1a9-4161-a18a-2b2c5f412e0d",
+            "id": "a0123d36-f66b-4b9d-8a25-676513e26df6",
             "modelName": "GMPoint",
             "mvc": "1.0",
-            "x": 2,
-            "y": 126
+            "x": 0,
+            "y": 63
         }
     ],
     "physicsStartAwake": true,
@@ -101,7 +111,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0.025",
+            "value": "0.0125",
             "varName": "thrust",
             "varType": 0
         },
@@ -115,7 +125,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0.05",
+            "value": "0.025",
             "varName": "rcs_thrust",
             "varType": 0
         },
@@ -129,7 +139,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "5",
+            "value": "3",
             "varName": "max_speed",
             "varType": 0
         },
@@ -143,7 +153,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "200",
+            "value": "100",
             "varName": "max_angular_velocity",
             "varType": 0
         },

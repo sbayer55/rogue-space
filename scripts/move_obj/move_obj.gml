@@ -11,15 +11,3 @@ physics_apply_angular_impulse(angular_impulse)
 phy_speed_x = clamp(phy_speed_x, -max_speed, max_speed)
 phy_speed_y = clamp(phy_speed_y, -max_speed, max_speed)
 phy_angular_velocity = clamp(phy_angular_velocity, -max_angular_velocity, max_angular_velocity)
-
-// Scrolling
-///////////////////////////////////////////////////////////////////////////////////////////////////
-if phy_position_x <= scroll_left
-	phy_position_x += chunk_width
-else if phy_position_x > scroll_right
-	phy_position_x -= chunk_width
-
-if phy_position_y <= scroll_top
-	phy_position_y += chunk_heigh
-else if phy_position_y > scroll_bottom
-	phy_position_y -= chunk_heigh
