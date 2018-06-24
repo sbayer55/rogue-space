@@ -33,6 +33,16 @@
             "enumb": 64,
             "eventtype": 8,
             "m_owner": "3e67f6e8-1bc7-44ac-9dfa-96114e2fba8f"
+        },
+        {
+            "id": "2a531b79-b78b-48e8-9af4-67b5b26ea2d9",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "3e67f6e8-1bc7-44ac-9dfa-96114e2fba8f"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -91,7 +101,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "500.0",
+            "value": "0.025",
             "varName": "thrust",
             "varType": 0
         },
@@ -105,7 +115,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "500.0",
+            "value": "0.05",
             "varName": "rcs_thrust",
             "varType": 0
         },
@@ -119,7 +129,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "15",
+            "value": "5",
             "varName": "max_speed",
             "varType": 0
         },
@@ -133,9 +143,23 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "100",
+            "value": "200",
             "varName": "max_angular_velocity",
             "varType": 0
+        },
+        {
+            "id": "a40edc93-6bed-4f0a-a4c6-318ed0b741c7",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "obj_wep_plasma",
+            "varName": "weapon",
+            "varType": 5
         }
     ],
     "solid": true,

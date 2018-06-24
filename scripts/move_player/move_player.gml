@@ -1,8 +1,7 @@
 ///move_player(local_impulse_x, local_impulse_y, angular_impulse)
-local_impulse_x = argument0
-local_impulse_y = argument1
-angular_impulse = argument2
-
+local_impulse_x = argument0 * delta_time
+local_impulse_y = argument1 * delta_time
+angular_impulse = argument2 * delta_time
 
 // Apply Forces
 ///////////////////////////////////////////////////////////////////////////////////////////////////
